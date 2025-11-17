@@ -19,7 +19,7 @@ The dashboard provides a high-level overview of the ad's reception and allows fo
 * **Data Explorer:** A filterable, searchable table of all 1,200+ comments with their predicted sentiment and topic.
 * **CSV Export:** A download button to export the complete, analyzed dataset.
 
-`![Screenshots of the Streamlit dashboard](dashboard_screenshot.png)(dashboard_screenshot1.png)`
+`![Screenshots of the Streamlit dashboard](dashboard_screenshot.png)`
 
 ---
 
