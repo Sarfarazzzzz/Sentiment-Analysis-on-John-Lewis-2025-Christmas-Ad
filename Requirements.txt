@@ -1,0 +1,14 @@
+# Core Dashboard & Analysis
+streamlit
+pandas
+numpy
+plotly
+scikit-learn
+
+# Transformer / Sentiment Analysis
+transformers
+torch
+
+# Data Scraping
+google-api-python-client
+praw
