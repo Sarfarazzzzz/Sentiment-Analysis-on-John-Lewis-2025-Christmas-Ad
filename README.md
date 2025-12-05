@@ -37,11 +37,14 @@ First, clone the repository and set up your environment.
 
 ```bash
 git clone [https://github.com/Sarfarazzzzz/Sentiment-Analysis-on-John-Lewis-2025-Christmas-Ad.git](https://github.com/Sarfarazzzzz/Sentiment-Analysis-on-John-Lewis-2025-Christmas-Ad.git)
-cd your-repo-name
-
-# It is highly recommended to use a virtual environment
-python3 -m venv venv
-source venv/bin/activate
+cd Sentiment-Analysis-on-John-Lewis-2025-Christmas-Ad
 
 # Install all required libraries
 pip install -r requirements.txt
+```
+
+### 2. How to run
+```bash
+
+python3 -m streamlit run app.py
+```
