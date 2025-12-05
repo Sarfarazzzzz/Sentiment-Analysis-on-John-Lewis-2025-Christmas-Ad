@@ -53,9 +53,9 @@ python3 -m streamlit run app.py
 
 - Get API Keys:
 
-  -YouTube: Get a "YouTube Data API v3" key from the Google Cloud Console.
-
-  -Reddit: Create a "script" app on your Reddit preferences page to get a CLIENT_ID and CLIENT_SECRET.
+  - YouTube: Get a "YouTube Data API v3" key from the Google Cloud Console.
+ 
+  - Reddit: Create a "script" app on your Reddit preferences page to get a CLIENT_ID and CLIENT_SECRET.
 
 - Edit Scrapers: Open scrape_youtube.py and scrape_reddit.py and paste your keys into the placeholder variables.
 
