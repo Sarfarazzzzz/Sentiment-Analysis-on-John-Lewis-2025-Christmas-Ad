@@ -31,7 +31,7 @@ There are two ways to run this project:
 1.  **Analysis-Only (Recommended):** Use the pre-scraped data to run the dashboard.
 2.  **Full Re-scrape:** Run the scraper scripts yourself to collect fresh data.
 
-### 1. Installation
+### Installation
 
 First, clone the repository and set up your environment.
 
@@ -43,8 +43,28 @@ cd Sentiment-Analysis-on-John-Lewis-2025-Christmas-Ad
 pip install -r requirements.txt
 ```
 
-### 2. How to run
+### 1. How to run (Analysis-Only )
 ```bash
 
 python3 -m streamlit run app.py
 ```
+
+### 2. How to run (Full Re-scrape)
+
+- Get API Keys:
+
+  -YouTube: Get a "YouTube Data API v3" key from the Google Cloud Console.
+
+  -Reddit: Create a "script" app on your Reddit preferences page to get a CLIENT_ID and CLIENT_SECRET.
+
+- Edit Scrapers: Open scrape_youtube.py and scrape_reddit.py and paste your keys into the placeholder variables.
+
+- Run Scrapers:
+
+```bash
+
+python3 scrape_youtube.py
+python3 scrape_reddit.py
+
+```
+- Run the App: Once you have the new .csv files, run the dashboard as shown above.
